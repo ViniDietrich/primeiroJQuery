@@ -8,10 +8,11 @@ function consultaCep() {
             console.log(response);
 
             // Modo com o Ajax
-            //$("#logradouro").html(response.logradouro);
-            //$("#bairro").html(response.bairro);
-            //$("#localidade").html(response.localidade);
-            //$("#uf ").html(response.uf);
+            $("#logradouro").html(response.logradouro);
+            $("#bairro").html(response.bairro);
+            $("#localidade").html(response.localidade);
+            $("#uf ").html(response.uf);
+            $("#titulo_cep ").html("CEP " + cep);
 
             //Modo antigo
             //document.getElementById("logradouro").innerHTML = response.logradouro
